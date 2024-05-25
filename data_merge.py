@@ -20,4 +20,4 @@ sales_data_copy['sales'] = sales_data_copy['price']*sales_data_copy['quantity']
 sales_data_copy = sales_data_copy.drop(['price', 'quantity', 'product'], axis=1)
 print(sales_data_copy.head())
 
-sales_data_copy.to_csv('sales_data.csv', index=False)
+sales_data_copy.to_csv('pink_morsels_sales_data.csv', index=False)
